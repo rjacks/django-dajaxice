@@ -28,7 +28,7 @@ class DajaxiceConfig(object):
 
     @property
     def dajaxice_url(self):
-        return r'^%s/' % self.DAJAXICE_MEDIA_PREFIX
+        return r'%s/' % self.DAJAXICE_MEDIA_PREFIX
 
     @property
     def django_settings(self):

@@ -132,7 +132,7 @@ def dajaxice_autodiscover():
             continue
 
         try:
-            imp.find_module('ajax', app_path)
+            imp.find_module('ajax', [str(app_path)])
         except ImportError:
             continue
 
